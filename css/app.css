@@ -5784,7 +5784,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 400px; }
+  .player .image, .enemy .image {
+    width: 100%; }
 
+.enemy .image {
+  text-align: right; }
 .enemy .healthBar {
   margin-right: 0 !important;
   margin-left: auto;
@@ -5816,7 +5820,7 @@ body {
       -webkit-transition: 1s;
       transition: 1s; }
   .button-styles svg use {
-    width: 50px; }
+    width: 40px; }
 
 .myProgress {
   position: relative;
@@ -5831,12 +5835,13 @@ body {
   height: 29px;
   line-height: 29px;
   background-color: #88BCE3;
-  -webkit-transition: all 1s linear;
-  transition: all 1s linear;
+  -webkit-transition: all .8s;
+  transition: all .8s;
   margin-right: auto;
   margin-top: 24px;
   text-shadow: none;
-  text-align: right; }
+  text-align: right;
+  overflow: hidden; }
 
 .overlay {
   position: fixed;
@@ -5889,4 +5894,5 @@ audio {
   transition: opacity .3s; }
   audio:hover {
     opacity: 1; }
+
 /*# sourceMappingURL=app.css.map */
