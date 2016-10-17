@@ -5815,7 +5815,11 @@ body {
   padding-left: 20px;
   height: 100%; }
   .button-styles button {
-    background-color: transparent; }
+    background-color: transparent;
+    border: none;
+    outline-offset: 0px !important;
+    outline: 0 !important;
+    box-shadow: none !important; }
 
 .myProgress {
   position: relative;
@@ -5889,4 +5893,5 @@ audio {
   transition: opacity .3s; }
   audio:hover {
     opacity: 1; }
+
 /*# sourceMappingURL=app.css.map */
