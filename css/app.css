@@ -5816,11 +5816,6 @@ body {
   height: 100%; }
   .button-styles button {
     background-color: transparent; }
-    .button-styles button:hover svg {
-      -webkit-transition: 1s;
-      transition: 1s; }
-  .button-styles svg use {
-    width: 40px; }
 
 .myProgress {
   position: relative;
